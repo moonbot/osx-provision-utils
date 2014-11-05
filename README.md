@@ -1,11 +1,11 @@
-# provision-utils
+# osx-provision-utils
 
 Tools for listing and reading iOS/Mac provisioning profiles on OS X.
 
 ## Install
 
 ```
-$ npm install osx-provision-utils
+$ npm install moonbot/osx-provision-utils -g
 ```
 
 ## Command-Line Usage
@@ -53,6 +53,10 @@ var prov = require('osx-provision-utils');
 var profile = prov.findProfileByName('My App Distribution');
 console.log(profile.name);
 ```
+
+## Why Node?
+
+This tool was developed as part of a Node based build system, so here it is.
 
 ## License
 
