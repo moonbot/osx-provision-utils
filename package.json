@@ -1,0 +1,23 @@
+{
+  "name": "node-provisioning-utils",
+  "version": "0.1.0",
+  "author": "John Cannon <cannon@moonbotstudios.com>",
+  "description": "Tools for listing and reading iOS/Mac provisioning profiles on OS X ",
+  "keywords": ["iOS", "provisioning", "profiles", "uuid"],
+  "license": "MIT",
+
+  "os": ["darwin"],
+  "preferGlobal": true,
+  "engines": ">=0.10.0",
+  
+  "main": "lib/provisioning.js",
+  "bin": {
+    "profile-tool": "./bin/cli.js"
+  },
+
+  "dependencies": {
+    "execSync": "^1.0.2",
+    "minimist": "^1.1.0",
+    "simple-plist": "0.0.2"
+  }
+}
